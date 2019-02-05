@@ -11,7 +11,7 @@ session_start();
 require('class_thumbnail.php');
 require('database.php');
 include 'config.php';
-//$_SESSION['developerKey'] = 'AI39si6l2Bai4l3N-Q5j97tGLrIJSv59Hqm-0I4AYf5otnxLH8PRlya1b59S0O4bVT_WdN8TEoEBU5NacKUkdDVjDPVBLr_ReQ';
+//$_SESSION['developerKey'] = '';
 
 if (!isset($_POST['op'])) {
     // if a GET variable is set then process the token upgrade
